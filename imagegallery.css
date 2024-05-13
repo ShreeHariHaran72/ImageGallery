@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(44, 20, 20);
+}
+
+.body {
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(82, 2, 13);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.title {
+    color: rgb(255, 102, 0);
+}
+
+ul,
+li,
+h1,
+nav {
+    display: inline;
+    color: grey;
+}
+
+nav {
+    padding-left: 7%;
+}
+
+span {
+    padding: 2%;
+}
+
+li:hover {
+    color: red;
+    cursor: pointer;
+}
+
+#heading {
+    font-family: "Philosopher", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    margin-top: 20px;
+
+}
+
+h1 {
+    color: rgb(219, 69, 0);
+}
+
+.images {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.images div {
+    color: white;
+    flex-basis: 20%;
+    border: 4px outset rgb(196, 60, 6);
+    box-shadow:4px 4px 6px rgb(255, 0, 0),-4px -4px 6px rgb(255, 0, 0);
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+img{
+    margin-top: 20px;
+}
+
+.images div:hover {
+    background-color: black;
+    color: rgb(199, 75, 3);
+    cursor: pointer;
+}
+
+.end {
+    text-align: center;
+    padding: 20px;
+    color: whitesmoke;
+}
+.search{
+    border-radius:20px;
+    width: 34%;
+    padding: 5px;
+    margin-left: 24px;
+
+}
